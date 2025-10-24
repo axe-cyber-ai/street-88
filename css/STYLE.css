@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.navbar {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar_logo {
+    width: 216px;
+    height: 53px;
+    background-color: #0A9418BF;
+    border-radius: 4px;
+    margin-top: 6px;
+}
+.navbar_top_cards{
+    color: white;
+}
+.navbar_top_card{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    color: white;
+    margin-top: 18px;
+}
+.navbar_top_cards_link{
+    color: white;
+}
+.logo{
+    background: linear-gradient(90deg,#00000080, #69CF1780 );
+}
+.navbar_top_cards_link{
+    color: white;
+    margin-top: 18px;
+    transition: 0.5s;
+}
+.navbar_top_cards_link:hover{
+    color: #69CF17;
+}
+
+.navbar_logo_title {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_top_cards_lists{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.navbar_top{
+    width: 100%;
+    height: 59px;
+}
+.navbar_top_cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuu {
+    display: flex;
+    gap: 27px;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.menu:hover {
+    background-color: #69CF17BF;
+}
+
+.menu {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+
+.navbar_bottom {
+    width: 100%;
+    height: 65px;
+    background-color: black;
+}
+
+.navbar_bottom_cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 216px;
+    height: 53px;
+    background-color: #06600f;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar_bottom_cards_lists {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_bottom_cards_link {
+    padding: 22px 14px;
+    transition: 0.5s;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.navbar_bottom_cards_link:hover {
+    background-color: #69CF17;
+}
+
+.header {
+    width: 100%;
+    position: relative;
+}
+
+.header_background {
+    width: 100%;
+}
+
+.container {
+    width: 1140px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.header_cards {
+    position: absolute;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header_cards_title {
+    font-weight: 900;
+    font-size: 72px;
+    color: #69CF17;
+}
+
+.header_cards_span {
+    font-size: 36px;
+    font-weight: 400;
+    color: #69CF17;
+}
+
+.header_cards_text {
+    width: 1110px;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+
+.header_cards_btns {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_cards_btns_price {
+    width: 285px;
+    height: 103px;
+    background-color: #69CF17;
+    opacity: 0.9;
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_cards_btns_button {
+    width: 255px;
+    height: 51px;
+    border-radius: 6px;
+    background: linear-gradient(90deg, #69CF17, #417D11);
+}
+.boshliq{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+.main{
+    width: 100%;
+
+}
+.burgers{
+    width: 100%;
+}
+.burgers_cards{
+    width: 100%;
+    display: flex;
+}
+.burger_card{
+    width: 352px;
+    height: 524px;
+    border: 1px solid white;
+    background-color: #0C0C0C;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    
+}
+.burgers_cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #393636;
+}
+.burger_card_img{
+    width: 338px;
+    height: 325px;
+    justify-content: center;
+}
+.burger_card_image{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.burgers_card_title{
+    font-size: 19px;
+    font-weight: 700;
+    color: white;
+    margin-top: 15px;
+}
+.burger_card_text{
+    color: white;
+    margin-top: 15px;
+    font-size: 19px;
+    font-weight: 400;
+}
+.boshliq2{
+    width: 100%;
+    height: 40px;
+    background-color: #0C0C0C;
+}
+.title{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.map_title{
+    font-size: 50px;
+    font-weight: 700;
+    color: #69CF17;
+}
+.maps{
+    width: 100%;
+
+}
+.map{
+    width: 100%;
+    height: 500px;
+}
+.mapp{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    width: 100%;
+    height: 268px;
+    background: linear-gradient(180deg, #000000, #70f800);
+
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.footer_nomer{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.more_options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.burgers_card_title{
+    margin-left: 15px;
+}
+.burger_card_text{
+    margin-left: 15px;
+}
+.options { 
+    display: flex;
+    align-items: center;   
+    gap: 10px;            
+    padding-top: 120px;
+}
+.op{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.blackline{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+
+}
+.burger_card_parda{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s;
+    background-color: #69CF17BF;
+
+}
+.burger_card_parda:hover{
+    opacity: 0.7;
+}
+.burger_card_img{
+    position: absolute;
+}
+.burger_card_parda {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #69CF17BF;
+    opacity: 0;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.burger_card_img:hover {
+    opacity: 0.7; 
+}
+
+.burger_card_parda i {
+    color: white;
+    font-size: 70px;
+}

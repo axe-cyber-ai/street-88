@@ -1,161 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/STYLE.css">
-    <title>Street 88</title>
+    <title>STREET 88 — Вкуснейшие Бургеры</title>
 </head>
 
 <body>
     <nav class="navbar">
         <section class="navbar_top">
-         <div class="container">
-            <div class="navbar_top_cards">
-                <div class="navbar_top_card">
-                    <i class="fal fa-map-signs"></i>
-                    <p class="navbar_top_card_text">Проезд</p>
-                </div>
-                <ul class="navbar_top_cards_lists">
-                    <li class="navbar_top_cards_list"><a href="" class="navbar_top_cards_link">Покупат  елям</a></li>
-                    <li class="navbar_top_cards_list"><a href="" class="navbar_top_cards_link">Сотрудничество</a></li>
-                    <li class="navbar_top_cards_list"><a href="" class="navbar_top_cards_link">Доставка</a></li>
-                </ul>
-            </div>
-         </div>
-        </section>
-        <section class="navbar_bottom">
             <div class="container">
-                <div class="navbar_bottom_cards">
-                    <a href="" class="logo">SREET 88</a>
-                    <ul class="navbar_bottom_cards_lists">
-                        <li class="navbar_bottom_cards_list"><a href="" class="navbar_bottom_cards_link">Главная</a></li>
-                        <li class="navbar_bottom_cards_list"><a href="" class="navbar_bottom_cards_link">Корзина</a></li>
-                        <li class="navbar_bottom_cards_list"><a href="" class="navbar_bottom_cards_link">Меню</a></li>
-                        <li class="navbar_bottom_cards_list"><a href="" class="navbar_bottom_cards_link">О нас</a></li>
-                        <li class="navbar_bottom_cards_list"><a href="" class="navbar_bottom_cards_link">Контакты</a></li>
+                <div class="navbar_top_cards">
+                    <div class="navbar_top_card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p class="navbar_top_card_text">Проезд</p>
+                    </div>
+                    <ul class="navbar_top_cards_lists">
+                        <li class="navbar_top_cards_list"><a href="#menu" class="navbar_top_cards_link">Покупателям</a></li>
+                        <li class="navbar_top_cards_list"><a href="#about" class="navbar_top_cards_link">Сотрудничество</a></li>
+                        <li class="navbar_top_cards_list"><a href="#contacts" class="navbar_top_cards_link">Доставка</a></li>
                     </ul>
                 </div>
             </div>
         </section>
-        </nav>
+        <section class="navbar_bottom">
+            <div class="container">
+                <div class="navbar_bottom_cards">
+                    <a href="#" class="logo">STREET 88</a>
+                    <ul class="navbar_bottom_cards_lists">
+                        <li class="navbar_bottom_cards_list"><a href="#" class="navbar_bottom_cards_link">Главная</a></li>
+                        <li class="navbar_bottom_cards_list"><a href="#menu" class="navbar_bottom_cards_link">Меню</a></li>
+                        <li class="navbar_bottom_cards_list"><a href="#about" class="navbar_bottom_cards_link">О нас</a></li>
+                        <li class="navbar_bottom_cards_list"><a href="#branches" class="navbar_bottom_cards_link">Филиалы</a></li>
+                        <li class="navbar_bottom_cards_list"><a href="#contacts" class="navbar_bottom_cards_link">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </nav>
+
     <header class="header">
-        <img src="./img/heade_backgraund.png" alt="" class="header_background">
+        <img src="./img/heade_backgraund.png" alt="Header Background" class="header_background">
         <div class="container">
             <div class="header_cards">
                 <h1 class="header_cards_title">Большой гамбургер</h1>
-                <span class="header_cards_span">говядина</span>
-                <p class="header_cards_text">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и
-                    небольшая котлета, сдобренная майонезом и кетчупом, - таков классический портрет гамбургера,
-                    наиболее распространенной «быстрой» еды в США, от отравления которой ежедневно на больничных койках
-                    оказываются десятки тысяч американцев</p>
+                <span class="header_cards_span">100% Сочная Говядина</span>
+                <p class="header_cards_text">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и сочная котлета, сдобренная фирменным соусом — идеальный выбор для настоящих ценителей вкуса.</p>
                 <div class="header_cards_btns">
-                    <div class="header_cards_btns_price">14500</div>
-                    <button class="header_cards_btns_button">Просмотреть</button>
+                    <div class="header_cards_btns_price">45 000 сум</div>
+                    <button class="header_cards_btns_button">Заказать сейчас</button>
                 </div>
             </div>
         </div>
     </header>
+
     <div class="blackline"></div>
-    <main class="main">
+
+    <main class="main" id="menu">
         <section class="burgers">
+            <div class="container">
+                <h2 style="color: #69CF17; text-align: center; font-size: 42px; font-weight: 900; margin: 30px 0 10px 0; font-family: 'Montserrat', sans-serif;">НАШЕ МЕНЮ</h2>
+            </div>
             <div class="burgers_cards">
                 <div class="burger_card">
                     <div class="burger_card_img">
-                        <img class="burger_card_image" src="./img/main_background.png" alt="">
+                        <img class="burger_card_image" src="./img/main_background.png" alt="Мясная лагуна">
                         <div class="burger_card_parda">
-                            <i class="fal fa-shopping-cart fa-5x"></i>
+                            <i class="fas fa-shopping-cart fa-3x"></i>
                         </div>
                     </div>
-                    <h3 class="burgers_card_title">Мясная лагуна</h3>
-                    <p class="burger_card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-                        purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
+                    <h3 class="burgers_card_title">Мясная Лагуна</h3>
+                    <p class="burger_card_text">Сочный бургер с двойной говяжьей котлетой, сыром Чеддер и пикантным фирменным соусом STREET 88.</p>
                 </div>
                 <div class="burger_card">
                     <div class="burger_card_img">
-                        <img class="burger_card_image" src="./img/main_background.png" alt="">
+                        <img class="burger_card_image" src="./img/main_background.png" alt="Чизбургер Премиум">
                         <div class="burger_card_parda">
-                            <i class="fal fa-shopping-cart fa-5x"></i>
+                            <i class="fas fa-shopping-cart fa-3x"></i>
                         </div>
                     </div>
-                    <h3 class="burgers_card_title">Мясная лагуна</h3>
-                    <p class="burger_card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-                        purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
+                    <h3 class="burgers_card_title">Чизбургер Премиум</h3>
+                    <p class="burger_card_text">Классический чизбургер с расплавленным сыром, свежими томатами и хрустящим салатом.</p>
                 </div>
                 <div class="burger_card">
                     <div class="burger_card_img">
-                        <img class="burger_card_image" src="./img/main_background.png" alt="">
+                        <img class="burger_card_image" src="./img/main_background.png" alt="Двойной Смэш">
                         <div class="burger_card_parda">
-                            <i class="fal fa-shopping-cart fa-5x"></i>
+                            <i class="fas fa-shopping-cart fa-3x"></i>
                         </div>
                     </div>
-                    <h3 class="burgers_card_title">Мясная лагуна</h3>
-                    <p class="burger_card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-                        purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
+                    <h3 class="burgers_card_title">Двойной Смэш</h3>
+                    <p class="burger_card_text">Две тонкие карамелизованные котлеты с двойным сыром и маринованным огурчиком.</p>
                 </div>
                 <div class="burger_card">
                     <div class="burger_card_img">
-                        <img class="burger_card_image" src="./img/main_background.png" alt="">
+                        <img class="burger_card_image" src="./img/main_background.png" alt="Чикен Криспи">
                         <div class="burger_card_parda">
-                            <i class="fal fa-shopping-cart fa-5x"></i>
+                            <i class="fas fa-shopping-cart fa-3x"></i>
                         </div>
                     </div>
-                    <h3 class="burgers_card_title">Мясная лагуна</h3>
-                    <p class="burger_card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-                        purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
+                    <h3 class="burgers_card_title">Чикен Криспи</h3>
+                    <p class="burger_card_text">Хрустящее куриное филе в панировке с нежным соусом тар-тар и свежим салатом Айсберг.</p>
                 </div>
                 <div class="burger_card">
                     <div class="burger_card_img">
-                        <img class="burger_card_image" src="./img/main_background.png" alt="">
+                        <img class="burger_card_image" src="./img/main_background.png" alt="Спайси Гриль">
                         <div class="burger_card_parda">
-                            <i class="fal fa-shopping-cart fa-5x"></i>
+                            <i class="fas fa-shopping-cart fa-3x"></i>
                         </div>
                     </div>
-                    <h3 class="burgers_card_title">Мясная лагуна</h3>
-                    <p class="burger_card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-                        purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
+                    <h3 class="burgers_card_title">Спайси Гриль</h3>
+                    <p class="burger_card_text">Острый бургер с соусом халапеньо, обжаренным беконом и сочной говядиной.</p>
                 </div>
                 <div class="burger_card">
                     <div class="burger_card_img">
-                        <img class="burger_card_image" src="./img/main_background.png" alt="">
+                        <img class="burger_card_image" src="./img/main_background.png" alt="Street Special">
                         <div class="burger_card_parda">
-                            <i class="fal fa-shopping-cart fa-5x"></i>
+                            <i class="fas fa-shopping-cart fa-3x"></i>
                         </div>
                     </div>
-                    <h3 class="burgers_card_title">Мясная лагуна</h3>
-                    <p class="burger_card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-                        purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
+                    <h3 class="burgers_card_title">Street Special</h3>
+                    <p class="burger_card_text">Фирменный гигантский бургер с тройной котлетой, карамелизованным луком и секретным соусом.</p>
                 </div>
-                <div class="blackline"></div>
-                <div class="maps">
-                    <div class="title">
-                        <h1 class="map_title">ФИЛИАЛЫ</h1>
-                    </div>
-                    <div class="map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24277.713660903617!2d68.7531347!3d40.4815872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1760535273567!5m2!1sru!2s"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade" class="mapp"></iframe>
-                    </div>
+            </div>
+
+            <div class="blackline"></div>
+
+            <div class="maps" id="branches">
+                <div class="title">
+                    <h1 class="map_title">НАШИ ФИЛИАЛЫ</h1>
+                </div>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24277.713660903617!2d68.7531347!3d40.4815872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1760535273567!5m2!1sru!2s"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="mapp"></iframe>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="footer">
-       <div class="first">
-         <div class="footer_logo">
-            <p class="logo">STREET 88</p>
+
+    <footer class="footer" id="contacts">
+        <div class="first">
+            <div class="footer_logo">
+                <p class="logo">STREET 88</p>
+            </div>
+            <div class="nomer">
+                <p class="footer_nomer">📞 +998 99 878 17 31</p>
+            </div>
         </div>
-        <div class="nomer">
-            <p class="footer_nomer">+998 99 878 17 31 </p>
-        </div>
-       </div>
         <div class="more_options">
             <ul class="options">
-                <li class="option"><a href="" class="op">Меню</a></li>
-                <li class="option"><a href="" class="op">О нас</a></li>
-                <li class="option"><a href="" class="op">Контакты</a></li>
+                <li class="option"><a href="#menu" class="op">Главная</a></li>
+                <li class="option"><a href="#menu" class="op">Меню</a></li>
+                <li class="option"><a href="#branches" class="op">Филиалы</a></li>
+                <li class="option"><a href="#contacts" class="op">Контакты</a></li>
             </ul>
         </div>
     </footer>
